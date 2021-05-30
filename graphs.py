@@ -50,7 +50,7 @@ date_day_bef_yesterday = (datetime.date.today() - datetime.timedelta(days=2)).st
 print(date_yesterday)
 print(date_day_bef_yesterday)
 
-"""
+
 url = "https://api.covid19india.org/csv/latest/districts.csv"  # ----API link for data
 response = requests.get(url)
 
@@ -187,7 +187,7 @@ print("total_new_cases :" + str(total_new_cases))
 print("total_new_recovered :" + str(total_new_recovered))
 print("total_new_deceaved :" + str(total_new_deceased))
 # --------------------------------------------------------------------------------------
-"""
+
 time.sleep(1)
 
 # -----------------collect all cases count in india from the second API-------------------------
@@ -261,7 +261,7 @@ for i in df.index:
     while 1:
         try:
             driver = webdriver.Chrome(
-                executable_path="/home/surya/covid-wh_bot/Covid_bot_V2/chromedriver",
+                executable_path="<complete path for chromedriver>",
                 options=options,
             )
             # ---url encode the message with whatsapp link

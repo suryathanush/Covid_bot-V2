@@ -68,3 +68,4 @@ Filtering is done using pre trained model and open source code by [https://githu
 - The user&#39;s subscription data was stored in csv format with separate user privilege, so that the data is not prone to internet frauds and is completely bootstrapped.
 - Once the user has unsubscribed from the service, all the users subscription data will be completely wiped off.
 - The bot has no trackers to track your chat behaviour, it is made to act on a request model.
+- All the user's chat will  be flushed out every 24 hours

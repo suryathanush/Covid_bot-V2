@@ -21,12 +21,12 @@ class msgresponse:
 
             # ---------------if message was 'hi' or 'hello'------------------------------------------------
             if ((fuzz.ratio(message.lower(), "hi")) > 85) or (
-                (fuzz.ratio(message.lower(), "hello")) > 85
+                (fuzz.ratio(message.lower(), "hello")) > 80
             ):
                 return "hi\r\nGood to see you\r\nif you haven't subscribed yet, please message your state name"
 
             # ----------------if the message was stop, delete the user subscription------------------------
-            if (fuzz.ratio(message.lower(), "stop")) > 85:
+            if (fuzz.ratio(message.lower(), "stop")) > 80:
 
                 self.df = pd.read_csv("users.csv", header=0)
                 # --check for the user's subscription by looping accross user's data

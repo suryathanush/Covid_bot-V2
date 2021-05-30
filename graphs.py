@@ -261,7 +261,7 @@ for i in df.index:
     while 1:
         try:
             driver = webdriver.Chrome(
-                executable_path="<complete path for chromedriver>",
+                executable_path="./chromedriver",
                 options=options,
             )
             # ---url encode the message with whatsapp link

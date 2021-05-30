@@ -61,6 +61,7 @@ This code was solely responsible for collecting and filtering out news feed for 
 
 Filtering is done using pre trained model and open source code by [https://github.com/v1shwa/document-similarity](https://github.com/v1shwa/document-similarity)
 
+the Word2Vec model used was a Google's open source model
 ## **Privacy measures taken :**
 
 - The only data that will be stored as subscription data was your phone number and subscribed state.

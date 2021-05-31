@@ -11,7 +11,7 @@ from selenium.webdriver.common.by import By
 options = webdriver.ChromeOptions()
 options.add_argument("user-data-dir=browser/")
 driver = webdriver.Chrome(
-    executable_path="/home/surya/covid-wh_bot/Covid_bot_V2/chromedriver",
+    executable_path="./chromedriver",
     options=options,
 )
 # driver = webdriver.Firefox()
